@@ -1,0 +1,50 @@
+
+/* Animation for image */
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Animation for text */
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .image-animation {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  .text-animation {
+    animation: slideInFromRight 1s ease-in-out;
+  }
+
+/* Animation for slide-in and fade-in */
+@keyframes slideInFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-fade-in {
+  animation: slideInFadeIn 1s ease-in-out;
+  opacity: 1; /* Start with opacity 0 */
+  transition: opacity 0.5s ease-in-out; /* Add a separate transition for opacity */
+}
+
+.slide-in-fade-in.visible {
+  opacity: 0; /* When visible, opacity is 1 */
+}

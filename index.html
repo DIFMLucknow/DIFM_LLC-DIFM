@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="At DO IT FOR ME LLC, we are a global team of experts in Data, Investments, Finance, and Marketing, providing innovative solutions for businesses and societal needs. Our Think Tank Initiative harnesses the collective brainpower of our multidisciplinary team, seeking innovative solutions to real-world problems. Partner with us for operational excellence and positive change.">
+
+    <meta name="keywords" content="DO IT FOR ME LLC, DIFM, Data, difm.tech, Investments, Finance, Marketing, Lending Industry Underwriting, Technical Project Management, Website Design, Digital Marketing, Build to Assist, B2A, Digital Information Platforms, DIP, World Model Hunt, Employ Woman, Layman Litigation, Aeroway.one, Sheridan, Wyoming, India, Think Tank Initiative, Partnership, Shared Growth, Excellence, Precision">
+
+
+    <!-- Open Graph  -->
+    <meta property="og:title" content="DOIT FOR ME LLC" />
+    <meta property="og:description" content="At DO IT FOR ME LLC, we are a global team of experts in Data, Investments, Finance, and Marketing, providing innovative solutions for businesses and societal needs. Our Think Tank Initiative harnesses the collective brainpower of our multidisciplinary team, seeking innovative solutions to real-world problems. Partner with us for operational excellence and positive change." />
+    <meta property="og:image" content="https://difm.llc/assets/logo.3155f511.png" />
+    <!-- Open graph end  -->
+
+    <link rel="icon" type="image/svg+xml" href="/doitforme.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <title  id="dynamic-title">DO IT FOR ME LLC</title>
+    <style>
+    #style-16::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #00040f;
+	border-radius: 10px;
+}
+
+#style-16::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #00040f !important;
+}
+
+#style-16::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #00040f !important;
+	background-image: -webkit-linear-gradient(top,
+  #66ffff 0%,
+  #4dffff 50%,
+  #33ffff 51%,
+  #1affff 100%);
+}
+#btn-back-to-top {
+  position: fixed;
+  display: none;
+}
+    </style>
+  </head>
+  <body id="style-16">
+
+    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 bg-discount-gradient text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-cyan-200 hover:shadow-lg focus:bg-cyan-200 focus:shadow-lg focus:outline-none focus:ring-0 w-[50px] h-[50px] sm:w-[60px] sm:h-[60px] active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5" id="btn-back-to-top">
+      <img src="./src/assets/scroll_icon.svg" alt="scroll-top">
+    </button>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      // Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+    headrs.style.background = "linear-gradient(125.17deg, #272727 0%, #11101d 100%)";
+    headrs.style.boxShadow = "0px 20px 10px 0px rgba(0, 0, 0, 0.5)";
+    headrs.style.height = "70px";
+    headrs.style.transition = "1s";
+  } else {
+    mybutton.style.display = "none"; 
+    headrs.style.background = "none";
+    headrs.style.boxShadow = "none";
+    headrs.style.height = "110px";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+    </script>
+  </body>
+</html>
